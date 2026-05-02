@@ -1,0 +1,11 @@
+/* Global styles moved to MUI Theme or scoped components */
+/* Retaining scroll behavior if needed, but removing aggressive resets */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+ * Removed global reset (* { margin: 0; padding: 0; }) as MUI CssBaseline handles this.
+ * Removed global font-family 'Poppins' as MUI Theme uses 'Inter'/'Roboto'.
+ * Removed scroll-snap behavior as it may interfere with dashboard layouts.
+ */
